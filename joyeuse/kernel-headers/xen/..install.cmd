@@ -1,0 +1,1 @@
+cmd_headers/include/xen/.install := /bin/sh ../scripts/headers_install.sh headers/include/xen ../include/uapi/xen evtchn.h gntalloc.h gntdev.h privcmd.h; /bin/sh ../scripts/headers_install.sh headers/include/xen ./include/generated/uapi/xen ; touch headers/include/xen/.install

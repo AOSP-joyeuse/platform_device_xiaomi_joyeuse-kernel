@@ -1,0 +1,1 @@
+cmd_headers/include/linux/sched/.install := /bin/sh ../scripts/headers_install.sh headers/include/linux/sched ../include/uapi/linux/sched types.h; /bin/sh ../scripts/headers_install.sh headers/include/linux/sched ./include/generated/uapi/linux/sched ; touch headers/include/linux/sched/.install
